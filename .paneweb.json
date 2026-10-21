@@ -1,0 +1,1 @@
+{"service":{"cmd":"bun tools/build.ts dist-pages/transmission-control && bun tools/serve.ts dist-pages","url_path":"/transmission-control/"}}

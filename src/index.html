@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- The start page, APP-01, APP-02, ART-12. tools/build.ts fills each double-braced name. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Transmission Control</title>
+<script>try{var l=JSON.parse(localStorage.getItem("{{SAVE_KEY}}")).settings.look}catch(e){}document.documentElement.dataset.look=l==="light"||l==="dark"?l:"{{LOOK_START}}"</script>
+<style>
+{{COLORS}}
+html,body{margin:0;min-height:100%;background:var(--ground);color:var(--ink)}
+#opening{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding:env(safe-area-inset-top) calc(16px + env(safe-area-inset-right)) env(safe-area-inset-bottom) calc(16px + env(safe-area-inset-left))}
+#opening svg{display:block;width:100%;max-width:640px;max-height:100%;stroke:var(--ink)}
+</style>
+<!-- The board's bug report widget, on tailnet test sites only. --><script>if(location.hostname.endsWith(".ts.net"))document.head.append(Object.assign(document.createElement("script"),{src:"https://pane-server.tail9feca9.ts.net:8446/widget.js",defer:true}))</script>
+</head>
+<body>
+<div id="opening">{{NAME_ART}}</div>
+<div id="app"></div>
+<!-- In the body, so the game name paints before the style sheet arrives; the script runs after it. -->
+{{STYLES}}
+<script type="module" src="{{SCRIPT}}"></script>
+</body>
+</html>

@@ -1,0 +1,6818 @@
+{
+ "1": {
+  "distinct": 1,
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   }
+  ],
+  "moves": [
+   2
+  ],
+  "kinds": {
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "2": {
+  "distinct": 2,
+  "solution": [
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   }
+  ],
+  "moves": [
+   3
+  ],
+  "kinds": {
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "3": {
+  "distinct": 5,
+  "solution": [
+   {
+    "from": {
+     "id": "Translator 2",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Translator 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Translator 2",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   }
+  ],
+  "moves": [
+   4
+  ],
+  "kinds": {
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "4": {
+  "distinct": 5,
+  "solution": [
+   {
+    "from": {
+     "id": "Analyst 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Analyst 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   }
+  ],
+  "moves": [
+   3
+  ],
+  "kinds": {
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "5": {
+  "distinct": 5,
+  "solution": [
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Lawyer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Lawyer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   }
+  ],
+  "moves": [
+   3,
+   3
+  ],
+  "kinds": {
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "6": {
+  "distinct": 1,
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   5,
+   3
+  ],
+  "kinds": {
+   "Loop": [
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "7": {
+  "distinct": 2,
+  "solution": [
+   {
+    "from": {
+     "id": "Padder 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Padder 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   3,
+   4
+  ],
+  "kinds": {
+   "Loop": [
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "8": {
+  "distinct": 4,
+  "solution": [
+   {
+    "from": {
+     "id": "Straight Talker 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Straight Talker 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Straight Talker 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   5,
+   3,
+   3
+  ],
+  "kinds": {
+   "Loop": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "9": {
+  "distinct": 2,
+  "solution": [
+   {
+    "from": {
+     "id": "Poet 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Poet 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Poet 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   5,
+   3
+  ],
+  "kinds": {
+   "Loop": [
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Poet 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "10": {
+  "distinct": 1,
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Straight Talker 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Straight Talker 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Straight Talker 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Padder 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Manager 1",
+     "side": "input",
+     "kind": "positive",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Manager 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Padder 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   }
+  ],
+  "moves": [
+   5,
+   7,
+   5
+  ],
+  "kinds": {
+   "Loop": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Straight Talker 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "11": {
+  "distinct": 7,
+  "solution": [
+   {
+    "from": {
+     "id": "Straight Talker 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Manager 1",
+     "side": "input",
+     "kind": "positive",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Manager 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Straight Talker 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Straight Talker 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   5,
+   7
+  ],
+  "kinds": {
+   "Overload": [
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Straight Talker 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Rubber Stamp 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Loop": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "12": {
+  "distinct": 14,
+  "solution": [
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Padder 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Padder 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   }
+  ],
+  "moves": [
+   3,
+   4
+  ],
+  "kinds": {
+   "Loop": [
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Nothing arrived": [],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Shredded": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Shredder 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "13": {
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Translator 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   7,
+   4,
+   4
+  ],
+  "kinds": {
+   "Overload": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Loop": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Nothing arrived": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    }
+   ],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  }
+ },
+ "14": {
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 2",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 2",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Padder 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Padder 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 2",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   }
+  ],
+  "moves": [
+   6,
+   4,
+   4
+  ],
+  "kinds": {
+   "Overload": [
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Padder 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Rubber Stamp 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Padder 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Padder 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Padder 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Loop": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Padder 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Nothing arrived": [
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Padder 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Padder 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Padder 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ]
+  }
+ },
+ "15": {
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Lawyer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Lawyer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Analyst 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Analyst 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Translator 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Poet 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Poet 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   6,
+   4
+  ],
+  "kinds": {
+   "Overload": [
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Poet 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Poet 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Loop": [
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Nothing arrived": [
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Poet 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    }
+   ],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Poet 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Poet 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ]
+  }
+ },
+ "16": {
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Translator 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Manager 1",
+     "side": "input",
+     "kind": "positive",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Manager 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 3",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 3",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 3",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   11,
+   7,
+   9
+  ],
+  "kinds": {
+   "Overload": [
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Loop": [
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Nothing arrived": [
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ]
+  }
+ },
+ "17": {
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Translator 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Poet 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Poet 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Manager 1",
+     "side": "input",
+     "kind": "positive",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Manager 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Analyst 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Analyst 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 2",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 2",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Manager 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 2",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   13,
+   10,
+   10
+  ],
+  "kinds": {
+   "Overload": [
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Straight Talker 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Rubber Stamp 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Loop": [
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Straight Talker 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Straight Talker 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Rubber Stamp 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Nothing arrived": [
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Straight Talker 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Rubber Stamp 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Poet 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Rubber Stamp 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Poet 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Analyst 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Rubber Stamp 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Analyst 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Rubber Stamp 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Straight Talker 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Poet 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ]
+  }
+ },
+ "18": {
+  "solution": [
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Translator 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 3",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 3",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Lawyer 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Lawyer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 3",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ],
+  "moves": [
+   17,
+   6,
+   6,
+   12
+  ],
+  "kinds": {
+   "Overload": [
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Lawyer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Loop": [
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Nothing arrived": [
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    }
+   ],
+   "Dropped": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ],
+   "All wrong": [
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    }
+   ],
+   "Partly right": [
+    {
+     "from": {
+      "id": "Input terminal",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Translator 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Translator 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Diplomat 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Diplomat 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Summarizer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 2",
+      "side": "input",
+      "kind": "positive",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 1",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Lawyer 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Summarizer 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Output terminal",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 3",
+      "side": "output",
+      "kind": "positive",
+      "place": 1
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "positive",
+      "place": 1
+     }
+    },
+    {
+     "from": {
+      "id": "Inspector 2",
+      "side": "output",
+      "kind": "negative",
+      "place": 2
+     },
+     "to": {
+      "id": "Manager 1",
+      "side": "input",
+      "kind": "negative",
+      "place": 2
+     }
+    },
+    {
+     "from": {
+      "id": "Manager 1",
+      "side": "output",
+      "kind": "data",
+      "place": 1
+     },
+     "to": {
+      "id": "Inspector 3",
+      "side": "input",
+      "kind": "data",
+      "place": 1
+     }
+    }
+   ]
+  },
+  "longRun": [
+   {
+    "from": {
+     "id": "Translator 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 3",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Translator 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 3",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Diplomat 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Manager 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 2",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Summarizer 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Translator 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 2",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 1",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Lawyer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 2",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 1",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 2",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Summarizer 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Lawyer 1",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 2",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Lawyer 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Diplomat 1",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Output terminal",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 2",
+     "side": "output",
+     "kind": "negative",
+     "place": 2
+    },
+    "to": {
+     "id": "Manager 1",
+     "side": "input",
+     "kind": "negative",
+     "place": 2
+    }
+   },
+   {
+    "from": {
+     "id": "Input terminal",
+     "side": "output",
+     "kind": "data",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 3",
+     "side": "input",
+     "kind": "data",
+     "place": 1
+    }
+   },
+   {
+    "from": {
+     "id": "Inspector 3",
+     "side": "output",
+     "kind": "positive",
+     "place": 1
+    },
+    "to": {
+     "id": "Inspector 3",
+     "side": "input",
+     "kind": "positive",
+     "place": 2
+    }
+   }
+  ]
+ }
+}
